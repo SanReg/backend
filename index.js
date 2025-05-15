@@ -8,7 +8,7 @@ app.use(cors({
   credentials: true // if you need cookies or auth headers
 }));
 
-app.use(cors()); //to allow it from everywhere
+//app.use(cors()); //to allow it from everywhere
 
 app.get("/",(req,res)=>{
     res.json({
