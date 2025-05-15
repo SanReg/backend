@@ -4,7 +4,7 @@ const PORT = 3000
 const cors = require('cors')
 
 app.use(cors({
-  origin: 'https://wrc.lol/new.html',
+  origin: 'https://wrc.lol',
   credentials: true // if you need cookies or auth headers
 }));
 
